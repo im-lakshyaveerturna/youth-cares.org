@@ -64,7 +64,7 @@ const Home = () => {
         <img src={youthCaresImage} className='image-1' alt='Youth Cares Logo' />
 
         <div className='content'>
-          <h1 className='heading-1'>Hello</h1>
+          <h1 className='heading-1'>"IF WE WON'T, THEN WHO WILL?”</h1>
           <p className='paragraph'>
           <span>Youth Cares</span> is a dynamic non-profit organization founded and led by <span style={{color:'rgb(173, 36, 145)'}}>Nimrit Kaur</span>, a dedicated student with a passion for social change and community service. The organization is committed to empowering young people to make a positive impact in their communities through a variety of initiatives focused on education, health, and environmental sustainability.
 
