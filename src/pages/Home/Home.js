@@ -83,7 +83,7 @@ const Home = () => {
         <h1 className='line'>Services We Provide!</h1>
         <div className='icons'>
           {services_1.map((service, index) => (
-            <div class='icon-card-1'>
+            <div class='icon-card-1' style={{animation: 'slide-in-left forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}}>
               <FontAwesomeIcon className='icon' icon={service.icon} />
               <h3 className='icon-title'>{service.title}</h3>
               <p>{service.description}</p>
@@ -95,7 +95,7 @@ const Home = () => {
       <div className='background-1'>
         <div className='icons'>
           {services_2.map((service, index) => (
-            <div className='icon-card-2'>
+            <div className='icon-card-2' style={{animation: 'slide-in-left forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}}>
               <FontAwesomeIcon className='icon' icon={service.icon} />
               <h3 className='icon-title'>{service.title}</h3>
               <p>{service.description}</p>
