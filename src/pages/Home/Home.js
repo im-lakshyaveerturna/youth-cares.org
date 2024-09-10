@@ -132,7 +132,7 @@ const Home = () => {
       <div>
   
 
-    <img className='image-2' style={{float:'left'}} src={YCimage1}/>
+    <img className='image-2' style={{float:'left', animation: 'slide-in-left forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}} src={YCimage1}/>
         <div className='content' style={{maxWidth:'50%'}}>
 
   
@@ -157,7 +157,7 @@ const Home = () => {
         </div>
 
         <div>
-      <img className='image-2' src={YCimage2}/>
+      <img className='image-2' src={YCimage2} style={{animation: 'slide-in-left forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}}/>
 
 
         <div className='content' style={{maxWidth:'50%'}}>
@@ -184,7 +184,7 @@ const Home = () => {
         </div>
 
         <div>
-      <img className='image-2' style={{float:'left'}} src={YCimage3}/>
+      <img className='image-2' style={{float:'left', animation: 'slide-in-left forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}} src={YCimage3}/>
 
 
         <div className='content' style={{maxWidth:'50%'}}>
@@ -206,7 +206,7 @@ const Home = () => {
         </div>
 
         <div>
-      <img className='image-2' src={YCimage4}/>
+      <img className='image-2' src={YCimage4} style={{animation: 'slide-in-left forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}}/>
 
 
         <div className='content' style={{maxWidth:'50%'}}>
@@ -231,7 +231,7 @@ const Home = () => {
         </div>
         <div>
           
-      <img className='image-3'style={{float:'left'}} src={YCimage5}/>
+      <img className='image-3'style={{float:'left',animation: 'slide-in-left forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}} src={YCimage5}/>
 
         <div className='content' style={{maxWidth:'50%'}}>
           <h1 className='heading-2' style={{color:'rgb(120, 4, 143)', textDecoration:'underline'}}>Cleanliness Drives</h1>
