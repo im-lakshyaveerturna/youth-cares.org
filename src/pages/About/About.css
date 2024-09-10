@@ -18,6 +18,16 @@
     }
 }
 
+.heading-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 4rem;
+    color: rgb(150, 1, 135);
+    opacity: 30%;
+  }
+  
+
 .card{
     text-align: center;
     max-width: 50%;   
@@ -27,7 +37,14 @@
     box-shadow: -0.3rem -0.3rem 0rem violet;
     padding: 2rem;
 
-    @media (max-width:768px){
+}
+
+@media (max-width:768px){
+    .heading-3{
+        display: none;
+    }
+
+    .card{
         max-width: 90vw;
     }
 }

@@ -24,7 +24,7 @@ const About = () => {
           </p>
           
         </div>
-        <h1 className='heading-2' style={{marginLeft:'15rem',marginTop:'5rem', fontSize:'5rem'}}>#YouthCares</h1>
+        <h1 className='heading-3' style={{marginLeft:'15rem',marginTop:'5rem', fontSize:'5rem'}}>#YouthCares</h1>
       </div>
       <div className='background-3' style={{justifyContent:'normal'}}>
         <div className='card'>
