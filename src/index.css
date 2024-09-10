@@ -1,13 +1,269 @@
-body {
+/* index.css or app.css */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 217, 217);
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+
+  @media (max-width:576) {
+    text-align: center;
+    align-items: center;
+    
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-root {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-1 {
+  height: 47rem;
+  width: 50%;
+  float: right;
+  margin-left: 3rem; 
+  margin-right: 4rem;
+  height: 100vh;
+
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    height: auto;
+    width:100vw;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+.content {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-left: 5%;
+  box-sizing: border-box; 
+  max-width: 35rem;
+  animation: fade-in 2s ease 0s 1 normal forwards;
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+   
+    padding: 1.5rem;
+    margin-left: 2%;
+    max-width: 90vw;
+    text-align: center;
+  }
+}
+
+.button-align {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-left: 5%;
+  box-sizing: border-box; 
+  max-width: 35rem;
+  animation: fade-in 2s ease 0s 1 normal forwards;
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+    margin-left: 2%;
+    max-width: 90vw;
+    text-align: center;
+    align-items: center; /* Align items horizontally at center */
+    justify-content: center; /* Align items vertically at center */
+  }
+}
+
+
+.heading-1 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  text-shadow: 4px 2px 0px rgba(233, 18, 226, 0.3);
+  max-width: 90vw;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+.heading-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 4rem;
+  color: rgb(150, 1, 135);
+  opacity: 30%;
+  
+  @media (max-width: 576px) {
+    font-size: 1.5rem;
+    width: 80vw;
+    text-align: center;
+    opacity: 50%;
+
+  }
+}
+
+.paragraph {
+  text-align: left;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+
+
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    font-size: 0.9rem;
+    width: 80vw;
+    text-align: center;
+
+  }
+}
+
+.button {
+  margin-top: 5rem;
+  font-size: 1rem;
+  background-color: rgb(235, 75, 187);
+  max-width: 13rem;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 1.5rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+
+  }
+}
+
+.button:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  transform: translateY(4px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.background-1 {
+  background-color: rgb(245, 206, 206);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.background-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(45px);
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(24px);
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(12px);
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(6px);
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(4px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }

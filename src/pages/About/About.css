@@ -1,0 +1,36 @@
+.background-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(248, 205, 212);
+    align-items: center;
+
+    
+}
+
+.mask-image{
+    height: 18rem;
+    border-radius: 50%;
+    margin-top: 4rem;
+    @media (max-width:768px){
+        max-width: 30vw;
+        max-height: 50vw;
+    }
+}
+
+.card{
+    text-align: center;
+    max-width: 50%;   
+    background-color: rgb(246, 175, 202);
+    margin-top: 4rem;
+    border-radius: 3rem;
+    box-shadow: -0.3rem -0.3rem 0rem violet;
+    padding: 2rem;
+
+    @media (max-width:768px){
+        max-width: 90vw;
+    }
+}
+
+
+

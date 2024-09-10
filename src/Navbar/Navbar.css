@@ -1,0 +1,74 @@
+/* Navbar.css */
+.navbar {
+    background-color:rgb(201, 45, 118);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem;
+    backdrop-filter: blur(10px);
+
+
+    
+  }
+
+  .active {
+    color: red; /* Highlight the active link */
+  }
+  
+  .navbar-logo {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 2.5rem;
+    padding-left: 2.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.75rem;
+    position: absolute;
+    right: 10%;
+  }
+
+  .nav-links a.active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 209, 209);
+    
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: rgb(244, 244, 244);
+    font-size: 1.25rem;  
+    font-weight: 500;
+    text-decoration: none;
+    padding: 1rem;
+    padding-left: 1rem;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+  }
+  
+  .nav-links a:hover {
+    background-color:rgb(231, 86, 136);
+    cursor: pointer;
+
+    
+  }
+
+
+  .logo{
+    color: white; 
+    font-family: cursive;
+    position: absolute;
+     top: 0rem;
+    font-size: 3rem ;
+    text-shadow: 0.2rem 0.2rem violet;
+
+    @media(max-width:768px){
+      display: none;
+    }
+  }
