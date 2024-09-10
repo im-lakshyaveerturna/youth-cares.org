@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
+import '../../index.css'
 import './Home.css';
 
 import YCvideo from '../../assets/YCvideo.mp4';

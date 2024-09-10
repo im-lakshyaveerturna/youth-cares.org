@@ -3,6 +3,7 @@ import React from 'react';
 import Earth from '../../assets/YCaboutimage.jpg'
 import Founder from '../../assets/NimritKaurYC.png'
 import './About.css';
+import '../../index.css'
 
 const About = () => {
   return (
