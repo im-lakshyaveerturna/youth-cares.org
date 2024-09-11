@@ -65,11 +65,11 @@ const Home = () => {
 
         <div className='content'>
           <h1 className='heading-1'>"IF WE WON'T, THEN WHO WILL?”</h1>
-          <p className='paragraph'>
+          <p className='paragraph-2'>
           <span>Youth Cares</span> is a dynamic non-profit organization founded and led by <span style={{color:'rgb(173, 36, 145)'}}>Nimrit Kaur</span>, a dedicated student with a passion for social change and community service. The organization is committed to empowering young people to make a positive impact in their communities through a variety of initiatives focused on education, health, and environmental sustainability.
 
           </p>
-          <p className='paragraph'>
+          <p className='paragraph-2'>
           Under Nimrit Kaur's leadership, Youth Cares has launched several projects aimed at addressing critical issues such as access to education for underprivileged children, promoting mental health awareness, and organizing environmental clean-up drives. 
           </p>
           <button className='button'>
@@ -95,7 +95,7 @@ const Home = () => {
       <div className='background-1'>
         <div className='icons'>
           {services_2.map((service, index) => (
-            <div className='icon-card-2' style={{animation: 'slide-in-left forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}}>
+            <div className='icon-card-2' style={{animation: 'slide-in-right forwards', animationTimeline: 'view()', animationRange: 'entry 0% cover 40%'}}>
               <FontAwesomeIcon className='icon' icon={service.icon} />
               <h3 className='icon-title'>{service.title}</h3>
               <p>{service.description}</p>
