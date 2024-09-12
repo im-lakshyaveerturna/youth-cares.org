@@ -58,7 +58,7 @@
   .icon-card-1 {
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
+    max-width: 25rem;
     margin: 2rem; 
     text-align: center;
     animation: slide-in-left forwards;
@@ -73,7 +73,7 @@
   .icon-card-2 {
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
+    max-width: 25rem;
     margin: 2rem;
     text-align: center;
     animation: slide-in-right forwards;
@@ -84,14 +84,18 @@
     padding: 2rem;
     box-shadow: 3px 1px 0px rgb(245, 106, 227);
   }
-  
-  .icon-card-static {
+
+
+  .icon-title{
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
-    margin: 2rem;
     text-align: center;
+    font-size: 1.5rem;
+    color: rgb(150, 1, 135);
+    text-decoration: underline;
+    opacity: 70%;
   }
+
   
   .icon {
     color: rgb(211, 30, 163);
