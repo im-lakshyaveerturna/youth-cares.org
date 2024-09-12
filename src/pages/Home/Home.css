@@ -73,7 +73,7 @@
   .icon-card-2 {
     display: flex;
     flex-direction: column;
-    max-width: 25rem;
+    max-width: 26rem;
     margin: 2rem;
     text-align: center;
     animation: slide-in-right forwards;
