@@ -3,7 +3,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';  // Assuming you'll add some styles
 
-import youthCaresLogo from './../assets/youthcaresLogo.png';
 
 const Navbar = () => {
   return (
