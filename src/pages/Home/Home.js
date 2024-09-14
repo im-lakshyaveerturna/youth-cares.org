@@ -111,7 +111,7 @@ const Home = () => {
 
 
         <div className='content' style={{maxWidth:'50%'}}>
-          <h1 className='heading-2'>#WeeklyTechProgram</h1>
+          <h1 className='heading-2' style={{color:'rgb(120, 4, 143)', textDecoration:'underline'}}>Weekly Tech Program</h1>
           <p className='paragraph'>
           The Weekly Technology Program is a unique initiative focused on empowering underprivileged children from government schools by teaching them essential computer and other <span style={{color:'rgb(173, 36, 145)'}}>technical skills</span>. Each week, volunteers from our organization visit these schools to engage with the students and introduce them to the world of technology in a fun and interactive way. The goal is to spark curiosity and provide these children with practical knowledge that could open up future opportunities.
 

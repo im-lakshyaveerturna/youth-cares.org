@@ -1,7 +1,7 @@
 // Home.js
 import React from 'react';
 import Earth from '../../assets/YCaboutimage.jpg'
-import Founder from '../../assets/NimritKaurYC.png'
+import Founder from '../../assets/NimritYC.jpeg'
 import './About.css';
 import '../../index.css'
 
