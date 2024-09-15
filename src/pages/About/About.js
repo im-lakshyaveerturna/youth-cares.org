@@ -15,7 +15,7 @@ const About = () => {
         <div className='content'>
           <h1 className='heading-1'>"WE ARE A COMMUNITY"</h1>
           <p className='paragraph'>
-          <span>Youth Cares</span>, founded and led by 17-year-old <span style={{color:'rgb(227, 66, 214)'}}>Nimrit Kaur</span>, is a dynamic non-profit organization focused on empowering and uplifting youth through education, technology, and community engagement. The organization hosts weekly tech programs designed to equip underprivileged young people with essential skills in areas such as digital literacy. In addition to its tech initiatives, Youth Cares runs various community drives, fostering a spirit of giving and collaboration among students and young adults. By providing resources and support, Youth Cares aims to inspire the next generation of leaders and innovators.
+          <span>Youth Cares</span>, founded in 2022 and led by a contemporary high school student, <span style={{color:'rgb(227, 66, 214)'}}>Nimrit Kaur</span>, is a dynamic non-profit organization focused on empowering and uplifting youth through education, technology, and community engagement. The organization hosts weekly tech programs designed to equip underprivileged young people with essential skills in areas such as digital literacy. In addition to its tech initiatives, Youth Cares runs various community drives, fostering a spirit of giving and collaboration among students and young adults. By providing resources and support, Youth Cares aims to inspire the next generation of leaders and innovators.
 
           </p>
           <p className='paragraph'>
