@@ -5,7 +5,7 @@ import Insta from '../../assets/InstaIcon.png'
 import Gmail from '../../assets/GmailIcon.png'
 import Phone from '../../assets/PhoneIcon.png'
 
-const Services = () => {
+const Services= () => {
   return (
     <div className='contact-root'>
       <div className='contact-card'>
