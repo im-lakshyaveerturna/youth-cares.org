@@ -219,6 +219,12 @@ a {
     width: 80vw;
     text-align: center;
   }
+
+  .paragraph-2 {
+
+    width: 80vw;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
